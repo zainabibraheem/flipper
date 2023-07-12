@@ -1,0 +1,69 @@
+nav .navcenter {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+}
+
+.navcenter h4 {
+  color: aqua;
+}
+
+.navcenter ul {
+  list-style: none;
+  display: flex;
+  
+
+
+}
+
+.navcenter a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ //background-color: red;
+  height: 100vh;
+  width: 100%;
+}
+
+main h2 {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+main span {
+ color: rgb(9, 144, 165);
+}
+
+main button {
+  background-color: transparent;
+  padding: 5px 10px;
+  font-size: 18px;
+  
+  border: 1px solid black;
+
+  display: block;
+  margin: auto;
+  border-radius: 3px;
+}
+
+main button:hover {
+  background-color: black;
+  color: white;
+}
+
+#simple {
+margin-right: 7px;
+}
